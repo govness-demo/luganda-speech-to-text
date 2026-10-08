@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ug-e-services-office.luganda-speech-to-text"
+name: "Luganda speech-to-text"
+type: "model"
+version: "1.2.0"
+summary: "Speech recognition model for Luganda, trained on public-service call-centre recordings with consent."
+description: "A fine-tuned speech model for Luganda with a 14% word error rate on the public-service test set. Weights, model card and evaluation scripts are in the repository."
+publisher:
+  environment: "ug-e-services-office"
+  body: "Uganda e-Services Office"
+languages: ["lg", "en"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/luganda-speech-to-text"
+domains: ["digital-services", "citizen-engagement"]
